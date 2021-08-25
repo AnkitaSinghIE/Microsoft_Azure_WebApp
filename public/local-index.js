@@ -57,7 +57,7 @@ function addTaskToDisplay(task) {
     // Add event handler to each item for clicking on the checkbox
     // When the checkbox is clicked, we will make a server call to toggle completed
     taskCompleteCheckbox.addEventListener('change', updateTask);
-    // Add checkbox to li created earlier
+    // Add checkbox to li created earlier hi
     taskElement.appendChild(taskCompleteCheckbox);
     
     // Create label for the task
